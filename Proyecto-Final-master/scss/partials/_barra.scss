@@ -1,0 +1,32 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+/* barra */
+
+.barra{
+    margin: 50px;
+}
+
+.collapse a{
+    font-size: 20px;
+    font-family: $subtitulos;
+    
+}
+
+.navbar{
+    border-radius: 4px;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+}
+
+.d-flex{
+    margin-right: 30px;
+}

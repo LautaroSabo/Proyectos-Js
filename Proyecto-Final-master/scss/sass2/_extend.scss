@@ -1,0 +1,53 @@
+@import "../variables/variables";
+@import "_mixins.scss";
+
+.caja{
+    margin: 5px 5px 0 5px;
+}
+
+.bordes{
+    border-radius: 4px 4px 0 0;
+}
+
+    .box-img1{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img1;
+    }
+
+    .box-img2{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img2;
+    }
+
+    .box-img3{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img3;
+    }
+
+    .box-img4{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img4;
+    }
+
+    .box-img5{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img5;
+    }
+
+    .box-img6{
+        @extend .caja;
+        @extend .bordes;
+        grid-area: box-img6;
+    }
+
+
+    // hover
+
+
+
+

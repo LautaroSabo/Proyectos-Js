@@ -1,0 +1,21 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+
+
+
+
+.container-img{
+    margin: 0 20px 70px;
+    border-radius: 4px;
+}
+
+
+.section img{
+    height: 300px;
+    width: 300px;
+    @extend .bordes;
+}

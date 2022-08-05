@@ -1,0 +1,41 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+/* FORMULARIO */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: $azul-intermedio;
+    justify-content: center;
+    padding: 50px 70px;
+    border-radius: 4px;
+}
+.formulario .col-12{
+    margin-top: 20px;
+}
+
+.flex-formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 50px;
+    font-family: $subtitulos;
+}
+
+.mapa{
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.mapa h3{
+    text-align: center;
+    font-family: $subtitulos;
+}
+.mapa p{
+    text-align: center;
+    font-family: $parrafos;
+}

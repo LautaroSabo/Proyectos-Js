@@ -1,0 +1,53 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+
+/* TABLA */
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px 70px 50px;
+    padding: 25px;
+}
+
+#tabla-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: $azul-fuerte;
+	border-bottom: solid 5px $azul-clarito;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: $azul-intermedio;
+	color: white;
+}
+
+@media screen and (max-width: 650px){
+    #tabla-container{
+        width: 400px;
+    }
+}

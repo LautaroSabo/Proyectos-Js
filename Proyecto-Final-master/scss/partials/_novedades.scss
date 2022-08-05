@@ -1,0 +1,119 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+// * NOVEDADES */
+
+.novedades-img{
+    margin: 0 50px 70px;
+    border-radius: 4px;
+    background-color: #1E88E5;
+}
+
+.section-novedades{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    grid-template-areas:"box-nov1 box-nov2"
+                        "box-nov3 box-nov3";
+}
+.box-nov1{
+    grid-area: box-nov1;
+    margin: 5px;
+    width: 300px;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.box-nov2{
+    grid-area: box-nov2;
+    margin: 5px;
+    width: 300px;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.box-nov3{
+    grid-area: box-nov3;
+    margin: 5px;
+    width: 300px;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-novedades img{
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.titulo-nov{
+    text-align: center;
+    font-family: $subtitulos;
+    font-size: 70px;
+    margin: 50px;
+    font-weight: 500;
+    background-color: #4fa8fbbd;
+    border-radius: 4px;
+}
+
+.section-novedades .promocion{
+    width: 0%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(56,53 ,53,0.568);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.promocion a{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $titulos;
+}
+
+.box-nov1:hover .promocion{
+    width: 100%;
+    height: 100%;
+}
+
+.box-nov2:hover .promocion{
+    width: 100%;
+    height: 100%;
+}
+
+.box-nov3:hover .promocion{
+    width: 100%;
+    height: 100%;
+}
+
+.box-nov1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-nov2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-nov3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

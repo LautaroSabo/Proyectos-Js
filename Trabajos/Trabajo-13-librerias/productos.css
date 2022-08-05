@@ -1,0 +1,99 @@
+
+
+
+body {
+	background-image: url(lesa2.png);
+	margin: auto;
+}
+
+
+/* TABLA */
+
+.tabla {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin: 0px 70px 50px;
+	padding: 25px;
+}
+
+#tabla-container {
+	display: flex;
+	margin: 150px auto;
+	width: 600px;
+	
+}
+
+button {
+	border-radius: 4px;
+}
+
+table {
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	padding: 20px;
+}
+
+thead {
+	background-color: #1E88E5;
+	border-bottom: solid 5px #95e7fc;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+tr:hover td {
+	background-color: #4fa8fb;
+	color: white;
+}
+
+button:hover {
+	background-color: #03bb85;
+	color: white;
+}
+
+@media screen and (max-width: 650px) {
+	#tabla-container {
+		width: 400px;
+	}
+}
+
+
+
+/* CARRITO*/
+
+#tarjeta {
+	margin-left: 100px;
+	width: 100%;
+}
+
+h4{
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.agregado {
+	/* width: 600px; */
+	background-color: #1E88E5;
+	color: white;
+	/* margin-left: 20px; */
+}
+
+p {
+	margin: 12px;
+}
+
+#boton_guardar{
+	max-height: 100%;
+	position:absolute ;
+	
+
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(#444cf7 1.1px, #e5e5f7 1.1px);
+background-size: 22px 22px; 
+}
+
+h1{
+    background-color: #8fbdd3;
+    padding: 30px;
+    text-align: center;
+}
+
+
+h3{
+    background-color: #ede6db;
+    padding: 20px;
+    text-align: center;
+}
+
+.borrar{
+    background-color: #ff6961;
+    border-radius: 8px;
+}
+
+li{
+    font-size: 23px;
+}

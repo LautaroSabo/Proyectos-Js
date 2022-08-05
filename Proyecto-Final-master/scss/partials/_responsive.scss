@@ -1,0 +1,140 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+@media screen  and (max-width: 650px){
+    @include grid-responsive-650px;
+    .carousel-item img{
+        height: 100px;
+        width: 150px;
+    }
+    .carousel-item .img-c-1 img{
+        width: 300px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .carousel{
+        margin: 50px 10px;
+    }
+
+    .descripcion-img{
+        width: 250px;
+    }
+
+    
+
+    .box-img1:hover .mas{
+        width: 250px;
+        height: 340.5px;
+    }
+    .box-img2:hover .mas{
+        width: 250px;
+        height: 340.5px;
+    }
+    .box-img3:hover .mas{
+        width: 250px;
+        height: 365px;
+    }
+    .box-img4:hover .mas{
+        width: 250.5px;
+        height: 341px;
+    }
+    .box-img5:hover .mas{
+        width: 250px;
+        height: 340.5px;
+    }
+    .box-img6:hover .mas{
+        width: 250px;
+        height: 340.5px;
+    }
+
+
+
+    // novedades
+    .section-novedades img{
+        height: 250px;
+        width: 250px;
+    }
+    .section-novedades{
+        @include grid-nov;
+    }
+    .box-nov1{
+        height: 250px;
+        width: 250px;
+    }
+    .box-nov2{
+        height: 250px;
+        width: 250px;
+    }
+    .box-nov3{
+        height: 250px;
+        width: 250px;
+    }
+
+    .navbar-brand{
+        margin: 0;
+    }
+    .barra{
+        margin: 0;
+    }
+
+    .titulo-grid{
+        font-size: 35px;
+    }
+    .titulo-nov{
+        font-size: 35px;
+    }
+    @media screen and (max-width: 543px) {
+        .titulo-grid{
+            font-size: 30px;
+        }
+        .titulo-nov{
+            font-size: 30px;
+        }
+        @media screen and (max-width:480px) {
+            .titulo-grid{
+                font-size: 27px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+    .section{
+    @include grid-responsive-992px;
+    }
+    .navbar-brand{
+        margin: 0;
+    }
+    .titulo-grid{
+        font-size: 50px;
+    }
+    .titulo-nov{
+        font-size: 50px;
+    }
+
+
+    
+    @media screen and (min-width: 650px) and (max-width:733px) {
+        .titulo-grid{
+            font-size: 40px;
+        }
+        .titulo-nov{
+            font-size: 40px;
+        }
+        .section-novedades{
+            @include grid-nov;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section{
+        @include grid-index;
+    }
+    
+}
