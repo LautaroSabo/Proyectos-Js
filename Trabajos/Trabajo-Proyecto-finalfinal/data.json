@@ -1,0 +1,35 @@
+
+[
+    {
+        "id":1,
+        "name": "Ibuprofeno 400",
+        "price": "70",
+        "description": "ibuprofeno 400"
+    },
+    {
+        "id":2,
+        "name": "Ibuprofeno 600",
+        "price": "110",
+        "description": "ibuprofeno 600"
+    },
+    {
+        "id":3,
+        "name": "Actron 400",
+        "price": "270",
+        "description": "actron 400"
+    },
+    {
+        "id":4,
+        "name": "Actron Mujer",
+        "price": "270",
+        "description": "Actron Mujer"
+    },
+    {
+        "id":5,
+        "name": "Sertal Compuesto",
+        "price": "450",
+        "description": "Sertal Compuesto"
+    }
+    
+
+]
