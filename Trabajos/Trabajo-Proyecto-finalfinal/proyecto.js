@@ -112,8 +112,8 @@ bton.addEventListener('click', () => {
         timer: 1500
     })
 
-    // let arreglo_JSON = JSON.stringify(carrito);
-    // localStorage.setItem("carrito", arreglo_JSON);
+    let arreglo_JSON = JSON.stringify(carrito);
+    localStorage.setItem("carrito", arreglo_JSON);
 
 
 });
